@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'O2 Wifi Website',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
