@@ -10,10 +10,7 @@ module.exports = {
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-      plugins: [
-        // ...global plugins
-      ]
+      anchorClassName: 'icon icon-link'
     }
   },
 
@@ -26,12 +23,6 @@ module.exports = {
         remark: {
         }
       }
-    },
-    {
-      use: `gridsome-plugin-netlify-cms`,
-      options: {
-        publicPath: `/admin`
-      }
-    },
+    }
   ]
 }
