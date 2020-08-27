@@ -4,10 +4,26 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const axios = require('axios')
 
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
-    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+
+    api.loadSource(async actions => {
+      const { data } = await axios.get('https://www.reddit.com/r/aww.json?raw_json=1')
+
+      const collection = actions.addCollection({typeName:'RedditPost'})
+  
+      for (const post of data.data.children) {
+        collection.addNode({
+          id: post.data.id,
+          title: post.data.title,
+          path:'/reddit/'+post.data.id,
+          thumbnail:post.data.thumbnail,
+          img:post.data.preview.images[0].source.url
+        })
+      }
+    })
   })
 
   api.createPages(({ createPage }) => {
