@@ -1,6 +1,6 @@
 ---
 title: Blog Post One
-featuredImage: uploads/yogendra.png
+featuredImage: uploads/victor-xok-qd-zd2moee8-unsplash.jpg
 ---
 
 # Blog Post One
