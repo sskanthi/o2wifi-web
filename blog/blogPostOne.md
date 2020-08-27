@@ -1,6 +1,6 @@
 ---
 title: Blog Post One
-featuredImage: /uploads/cat.jpg
+featuredImage: uploads/yogendra.png
 ---
 
 # Blog Post One
