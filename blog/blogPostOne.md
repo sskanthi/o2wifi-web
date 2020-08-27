@@ -1,5 +1,6 @@
 ---
 title: Blog Post One
+featuredImage: /uploads/cat.jpg
 ---
 
 # Blog Post One
