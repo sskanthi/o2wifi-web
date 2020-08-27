@@ -2,8 +2,11 @@
 title: Blog Post Two
 featuredImage: /uploads/cat.jpg
 ---
-
 # Blog Post Two
+
+
+
+Hi Soumya!
 
 Content for **blog post one**. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur esse quis exercitationem porro fugiat? Explicabo asperiores repellendus odit fuga delectus vel ducimus corporis laborum, totam officiis. Quos, autem quam.
 
@@ -14,14 +17,13 @@ Content for **blog post one**. Lorem ipsum dolor sit amet consectetur adipisicin
   const foo = 'bar';
   console.log(foo);
 </script>
-
 ```
 
 Itemized lists look like:
 
-  * this one
-  * that one
-  * the other one
+* this one
+* that one
+* the other one
 
 > Block quotes are
 > written like so.
