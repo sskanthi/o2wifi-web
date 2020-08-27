@@ -15,7 +15,7 @@ query Post($path:String!){
     export default {
         metaInfo(){
             return{
-                title:$page.post.title
+                title:this.$page.post.title
             }
         }
     }

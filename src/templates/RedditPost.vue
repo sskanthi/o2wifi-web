@@ -17,7 +17,7 @@ query RedditPost($path:String!){
     export default {
         metaInfo(){
             return{
-                title:$page.redditPost.title
+                title:this.$page.redditPost.title
             }
         }
     }
