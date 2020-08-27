@@ -1,5 +1,6 @@
 backend:
-  name: sskanthi/o2wifi-web
+  name: github
+  repo: sskanthi/o2wifi-web
   branch: master # Branch to update (optional; defaults to master)
 
 media_folder: "static/uploads" 
